@@ -103,7 +103,6 @@ public class FindSmallestMissingPositiveNumberFromUnsortedArray {
 
 	static int getMissingNumber(int[] arr, int size) {
 
-		int j = 0;
 		for (int i = 0; i < size; i++) {
 			int x = Math.abs(arr[i]);
 			if (x - 1 < size && arr[x - 1] > 0) {
