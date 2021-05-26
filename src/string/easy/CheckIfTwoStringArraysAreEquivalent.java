@@ -12,8 +12,8 @@ public class CheckIfTwoStringArraysAreEquivalent {
 		String[] word5  = {"abc", "d", "defg"};
 		String[] word6 = {"abcddefg"};
 				
-//		System.out.println(arrayStringsAreEqual(word1, word2));
-//		System.out.println(arrayStringsAreEqual(word3, word4));
+		System.out.println(arrayStringsAreEqual(word1, word2));
+		System.out.println(arrayStringsAreEqual(word3, word4));
 		System.out.println(arrayStringsAreEqual(word5, word6));
 	}
 
