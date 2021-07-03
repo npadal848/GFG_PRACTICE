@@ -1,3 +1,4 @@
+package stack.easy; 
 
 public class PreviousSmallerElement {
 
